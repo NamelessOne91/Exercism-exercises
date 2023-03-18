@@ -4,6 +4,7 @@ import (
 	"reflect"
 )
 
+// Flatten accepts a nested list and returns a single flattened list with all values except nil
 func Flatten(nested interface{}) []interface{} {
 	flat := []interface{}{}
 
